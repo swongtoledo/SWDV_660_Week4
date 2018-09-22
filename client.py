@@ -1,7 +1,7 @@
 import socket                
 
 client = socket.socket()
-client.connect(('169.254.41.80' ,9500)) ## this is the address when it started connected and the port
+client.connect(('169.254.41.80' ,9500)) ## this is the address from server when returns "started listening" from server.py
 
 
 def communicate(data):
