@@ -7,6 +7,9 @@ This has the server.py and the client.py requirements of Week 4 assignment.
 I have provided code that sends a "hi" or "any other words" requirement. 
 
 
+
+<br>
+
 The server requirements are:
 
    should accept connections on port 9500
