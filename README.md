@@ -5,7 +5,7 @@ Week 4 Assignment
 This has the server.py and the client.py requirements of Week 4 assignment. 
 
 I have provided code that sends a "hi" or "any other words" requirement. 
-Used the (b') function to get over the "a bytes-like object is required, not 'str"
+
 
 
 
