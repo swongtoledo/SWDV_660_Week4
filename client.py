@@ -1,7 +1,11 @@
 import socket                
 
 client = socket.socket()
-client.connect(('169.254.41.80' ,9500)) ## this is the address from server when returns "started listening" from server.py
+ip = socket.gethostbyname(socket.gethostname())
+port = 9500 
+address = (ip,port)
+
+client.connect(address)
 
 
 def communicate(data):
